@@ -3,7 +3,8 @@ from IPython.display import clear_output
 from google.colab import output
 output.enable_custom_widget_manager()
 # output.disable_custom_widget_manager()
-!pip install pydeck
+import os
+os.system('pip install pydeck')
 clear_output()
 import pandas as pd
 import numpy as np
